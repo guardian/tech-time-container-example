@@ -1,5 +1,8 @@
 FROM node:latest
 
+# This is just metadata to get our package to appear in the repo
+LABEL org.opencontainers.image.source https://github.com/guardian/tech-time-container-example
+
 # Create a directory for our application
 WORKDIR /opt/example/
 
